@@ -26,5 +26,12 @@ namespace TestGit.Controllers
 
             return View();
         }
+
+        public ActionResult HelloWorld()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
